@@ -163,6 +163,7 @@ public class Caesar_Cipher extends javax.swing.JFrame {
         checkforSpecialCharacters(plaintext);
         String encryptedtext = shiftCipher(plaintext, shiftAmount);
         encryptedTEXTFIELD.setText(encryptedtext);
+        messageLabel.setText("");
         }
         catch(NumberFormatException nfe){
             
